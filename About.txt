@@ -1,0 +1,9 @@
+Created by Harley Sacramento 4/21/2020
+
+Pokemon Damage
+
+This program was written using the pokemon api available at 'https://pokeapi.co/' which is a free api available to anyone.
+With this api, I made calls to retrieve the names of all the pokemon, their types, and damage index. The names of the pokemon were also saved locally in a file to reduce the number of calls to the api.
+The names of the pokemon were saved to allow for a binary search to check if the user given string was a valid pokemon.
+If the name of the pokemon was valid, then there would be a call to the api to grab the pokemon type and the types it is strongest/weakest against.
+The intention behind doing things the way I did was to try and work with calling api's and creating/reading files.
